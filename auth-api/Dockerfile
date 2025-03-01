@@ -28,4 +28,4 @@ COPY --from=build /app/auth-api .
 EXPOSE 8081
 
 # Command to run
-CMD ["./auth-api"]
+CMD ["./auth-api"] 
